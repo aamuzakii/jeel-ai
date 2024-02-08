@@ -24,3 +24,7 @@ mlforkids-numbers/__pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+
+**/note.md
+**/.idea
