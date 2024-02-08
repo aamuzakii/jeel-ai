@@ -14,3 +14,13 @@ ops/de-routes.sh
 ops/au-routes.sh
 ops/scaling-*.json
 ops/ibmcloud-login.md
+
+
+# Virtual environment
+mlforkids-numbers/env/
+
+# Compiled Python files
+mlforkids-numbers/__pycache__/
+*.pyc
+*.pyo
+*.pyd
