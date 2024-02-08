@@ -4,6 +4,7 @@
   "scripts": {
     "start": "node dist/lib/app.js",
     "build": "./node_modules/.bin/gulp build",
+    "buildprod": "./node_modules/.bin/gulp buildprod",
     "build_notest": "./node_modules/.bin/gulp compile web",
     "test": "./node_modules/.bin/gulp test",
     "lint": "./node_modules/.bin/eslint .",
@@ -23,7 +24,6 @@
     "tensorflow-models-posenet": "2.2.2-4.16.0",
     "tensorflow-models-speech-commands": "0.5.4-4.16.0",
     "@tensorflow/tfjs": "4.17.0",
-
     "@types/async": "2.4.2",
     "@types/body-parser": "1.19.5",
     "@types/bunyan": "1.8.11",
