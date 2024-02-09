@@ -8,10 +8,13 @@ echo $nextconv > $numfile
 
 sid=$nextconv
 
-region=us-south
+region=au-syd
 # region=eu-gb
 
 servicename=mlforkids-managed-$sid
+
+watsonname=my-watson-instance
+servicename=$watsonname
 
 ibmcloud resource service-instance-create $servicename conversation standard $region >> $DIR/../logs/create-conv.log
 
