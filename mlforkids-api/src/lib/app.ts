@@ -65,6 +65,7 @@ store.init()
         // setup server and run
         restapi(app);
         server = app.listen(port, host, () => {
+            console.info("server is listening");
             log.info({ host, port }, 'Running');
         });
     });
