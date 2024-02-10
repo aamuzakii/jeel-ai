@@ -4,6 +4,10 @@ body.md-default-theme {
     background-color: white;
 }
 
+p {
+    text-align: end;
+}
+
 .mlpagecontents {
     padding-bottom: 3em;
 }

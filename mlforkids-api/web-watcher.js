@@ -2,14 +2,14 @@ const chokidar = require('chokidar');
 const { exec } = require('child_process');
 
 
-// Initialize watcher.
-const watcher = chokidar.watch(['public/languages', 'app.js'], {
+// Initialize languageWatcher.
+const languageWatcher = chokidar.watch(['public/languages'], {
   ignored: /[\/\\]\.|sub-folder|third-party/, // ignore dotfiles
   persistent: true,
 });
 
 // Add event listeners.
-watcher
+languageWatcher
   .on('add', (path) => handleChange(path))
   .on('change', (path) => handleChange(path));
 
@@ -17,13 +17,12 @@ function handleChange(path) {
   console.log(`File ${path} has been changed. Running the script...`);
 
   // Run the custom Bash script.
-  exec(`npx gulp prodlanguages`, (error, stdout, stderr) => {
-    if (error) {
-      console.error(`Error running the script: ${error}`);
+  exec(`npx gulp languages`, (error, stdout, stderr) => {
+    if (error || stderr) {
+      console.error(`Error running the script: ${error} ${stderr}`);
       return;
     }
     console.log(`Script output: ${stdout}`);
-    console.error(`Script errors: ${stderr}`);
   });
 }
 
