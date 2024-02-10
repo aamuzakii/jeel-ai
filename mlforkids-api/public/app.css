@@ -4,7 +4,7 @@ body.md-default-theme {
     background-color: white;
 }
 
-p {
+p, div {
     text-align: end;
 }
 
