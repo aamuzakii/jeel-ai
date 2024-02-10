@@ -1325,6 +1325,7 @@ export async function getBluemixCredentials(
 
     const response = await dbExecute(queryName, queryString, queryValues);
     if (response.rows.length === 0) {
+        console.log("ini problemnya Ketemu");
         log.warn({ rows: response.rows, func : 'getBluemixCredentials' }, 'Unexpected response from DB');
         throw new Error('Unexpected response when retrieving service credentials');
     }

@@ -79,6 +79,7 @@ async function deleteLocalProject(req: auth.RequestWithLocalProject, res: Expres
 
 
 async function newLocalProjectModel(req: auth.RequestWithLocalProject, res: Express.Response) {
+    // triggered from blue button "Train new machine learning model"
     if (req.project.type !== 'text') {
         return errors.unknownError(res, new Error('Unexpected project type'));
     }
@@ -259,7 +260,7 @@ export default function registerApis(app: Express.Application) {
              auth.checkValidUser,
              auth.verifyLocalProjectAuth,
              // @ts-expect-error custom middleware not understood by linter
-             newLocalProjectModel);
+             newLocalProjectModel); // here
 
     app.get(urls.LOCALMODELS,
             auth.authenticate,
