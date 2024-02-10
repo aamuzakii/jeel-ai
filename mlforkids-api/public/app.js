@@ -317,64 +317,17 @@
 
                 // shorten en-XX to en
                 if (lang.indexOf('en') === 0) {
-                    lang = 'en';
-                }
-                else if (lang.indexOf('es') === 0) {
-                    lang = 'es';
-                }
-                else if (lang.indexOf('de') === 0) {
-                    lang = 'de';
-                }
-                else if (lang.indexOf('zh') === 0) {
-                    if (lang.indexOf('zh-tw') === 0) {
-                        lang = 'zh-tw';
-                    }
-                    else {
-                        lang = 'zh-cn';
-                    }
-                }
-                else if (lang.indexOf('fr') === 0) {
-                    lang = 'fr';
-                }
-                else if (lang.indexOf('ko') === 0) {
-                    lang = 'ko';
-                }
-                else if (lang.indexOf('nl') === 0) {
-                    lang = 'nl-be';
-                }
-                else if (lang.indexOf('ja') === 0) {
-                    lang = 'ja';
-                }
-                else if (lang.indexOf('el') === 0) {
-                    lang = 'el';
-                }
-                else if (lang.indexOf('it') === 0) {
-                    lang = 'it';
-                }
-                else if (lang.indexOf('cs') === 0) {
-                    lang = 'cs';
+                    lang = 'ar';
                 }
                 else if (lang.indexOf('ar') === 0) {
                     lang = 'ar';
                 }
-                else if (lang.indexOf('hr') === 0) {
-                    lang = 'hr';
-                }
-                else if (lang.indexOf('pl') === 0) {
-                    lang = 'pl';
-                }
-                else if (lang.indexOf('ru') === 0) {
-                    lang = 'ru';
-                }
-                else if (lang.indexOf('ro') === 0) {
-                    lang = 'ro';
-                }
                 else if (lang.trim() === '') {
-                    lang = 'en';
+                    lang = 'ar';
                 }
 
                 return lang;
             })
-            .fallbackLanguage('en');
+            .fallbackLanguage('ar');
     }
 })();

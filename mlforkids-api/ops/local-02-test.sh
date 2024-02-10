@@ -24,7 +24,7 @@ echo "Running tests"
 docker run --rm -it \
     --platform=linux/amd64 \
     --env-file dev-credentials.env \
-    -h ml-for-kids-local.net \
+    -h localhost \
     -p $PORT:$PORT \
     --name taxinomitis \
     $DOCKER_ORG/$DOCKER_IMAGE-test:$DOCKER_VERSION

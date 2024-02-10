@@ -11,7 +11,7 @@ fi
 source app.env
 
 PORT=9100
-DEVHOST=ml-for-kids-local.net
+DEVHOST=localhost
 
 echo "running image"
 docker run --rm --detach \
