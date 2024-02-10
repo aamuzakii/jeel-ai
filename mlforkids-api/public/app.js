@@ -315,9 +315,11 @@
 
                 lang = lang.toLowerCase();
 
+                console.log("initial lang", lang);
+
                 // shorten en-XX to en
                 if (lang.indexOf('en') === 0) {
-                    lang = 'ar';
+                    lang = 'en';
                 }
                 else if (lang.indexOf('ar') === 0) {
                     lang = 'ar';
@@ -325,6 +327,8 @@
                 else if (lang.trim() === '') {
                     lang = 'ar';
                 }
+
+                console.log("final lang", lang);
 
                 return lang;
             })
