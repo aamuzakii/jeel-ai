@@ -2069,7 +2069,7 @@
             "CALLOUT": "Giving students freedom to experiment with their machine learning model lets them learn for themselves about the relationship between the quantity of training data and the accuracy of machine learning models."
         },
         "CROWDSOURCING": {
-            "TITLE": "Crowdsourcing and gamification can help to generate training data",
+            "TITLE": "يمكن أن يساعد التعهيد الجماعي واللعب في توليد بيانات التدريب",
             "TEXT1": "I like running <a href='/#!/stories/ml-workflow'>projects like Pac-Man</a> (where students collect training examples by playing a game) with a class after they've done a project like <a href='/#!/stories/correlation-of-quantity-with-accuracy'>chatbots</a> (where students collect training examples by typing them in).",
             "TEXT2": "There will often by at least one (shamelessly honest!) student in the class who will tell me that typing in example questions to train a chatbot is 'boring'! And that they think creating training examples for Pac-Man by playing a video game is 'fun', 'easier', and just 'better'.",
             "TEXT3": "This is a useful learning experience for the students, because - they're not wrong!",

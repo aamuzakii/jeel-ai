@@ -301,7 +301,9 @@
                 suffix: '.json?v=127'
             })
             .determinePreferredLanguage(function () {
-                var lang = navigator.userLanguage || navigator.language;
+                var lang = 'ar';
+
+                console.log("navigator lang", lang);
 
                 // if it is set via query, use that
                 const queries = document.location.search.substr(1).split('&');
