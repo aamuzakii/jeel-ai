@@ -18,9 +18,9 @@
         "TEACHER": "معلم",
         "PROJECTS": "مشاريع",
         "WORKSHEETS": "صحيفة التعليمات",
-        "PRETRAINED": "Pretrained",
+        "PRETRAINED": " (Pretrained) مُدرب مسبقًا",
         "NEWS": "أخبار",
-        "STORIES": "Stories",
+        "STORIES": "قصص",
         "HELP": "مساعدة",
         "LOGIN": "تسجيل الدخول",
         "LOGOUT": "تسجيل الخروج",
@@ -2000,11 +2000,11 @@
         }
     },
     "BOOK": {
-        "TITLE": "Book",
+        "TITLE": "كتاب",
         "NOTES_1": "<strong>Machine Learning for Kids : A Project-Based Introduction to Artificial Intelligence</strong> is a new book to accompany the site.",
-        "NOTES_2": "The book is a guided hands-on and practical introduction to how artificial intelligence impacts our lives. It includes step-by-step instructions for making a variety of machine learning-powered projects in Scratch, and explains how they each relate to real-world AI applications.",
-        "NOTES_3": "Several projects dive deeper into particular aspects of how machine learning is applied, including recreating some of the most common mistakes made in AI, and learning about the different ways that the performance of machine learning systems can be measured and described.",
-        "NOTES_4": "Finally, the book ends by recreating examples of biased machine learning systems, and discusses the AI ethics issues that they raise.",
+        "NOTES_2": "الكتاب هو مقدمة موجهة وعملية لكيفية تأثير الذكاء الاصطناعي على حياتنا. يتضمن تعليمات خطوة بخطوة لإنشاء مجموعة متنوعة من المشاريع التي تعتمد على تعلم الآلة باستخدام برنامج Scratch، ويشرح كيف يرتبط كل منها بتطبيقات الذكاء الاصطناعي في العالم الحقيقي.    ",
+        "NOTES_3": "تتناول العديد من المشاريع جوانبًا أعمق من كيفية تطبيق تعلم الآلة، بما في ذلك إعادة إنشاء بعض أكثر الأخطاء شيوعًا في مجال الذكاء الاصطناعي، وفهم الطرق المختلفة التي يمكن قياس ووصف أداء نظم تعلم الآلة.",
+        "NOTES_4": "أخيرًا، ينتهي الكتاب بإعادة إنشاء أمثلة على أنظمة تعلم الآلة المتحيزة، ويناقش قضايا أخلاقيات الذكاء الاصطناعي التي تثيرها.",
         "UPDATES": {
             "TITLE": "Updates and corrections",
             "NOTES": "Any updates or corrections will be posted here. For more help, please see the <a ui-sref='help'>Help</a> page."
