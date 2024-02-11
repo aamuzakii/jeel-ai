@@ -35,3 +35,6 @@ echo "INSERT INTO bluemixcredentials (id, classid, servicetype, credstypeid, url
 echo "VALUES "
 echo "('$uuid', '$classname', 'conv', 2, '$my_watson_assistant_v1_base_url', '$convuser', '$convpass', '$servicename')"
 echo ";"
+
+# https://cloud.ibm.com/apidocs/assistant-v1#createworkspace
+# https://cloud.ibm.com/apidocs/assistant-v1#endpoint-cloud
