@@ -1321,7 +1321,8 @@ export async function getBluemixCredentials(
     const queryString = 'SELECT id, classid, servicetype, url, username, password, credstypeid ' +
                         'FROM bluemixcredentials ' +
                         'WHERE classid = $1 AND servicetype = $2';
-    const queryValues = [ tenant.id, service ];
+    const hardCodedClassID = 'kelas-a'
+    const queryValues = [ hardCodedClassID, service ];
 
     const response = await dbExecute(queryName, queryString, queryValues);
     if (response.rows.length === 0) {

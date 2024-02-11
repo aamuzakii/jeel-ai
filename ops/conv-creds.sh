@@ -29,7 +29,9 @@ uuid=`uuidgen | tr '[:upper:]' '[:lower:]'`
 convuser=${convapikey:0:22}
 convpass=${convapikey:22:22}
 
+my_watson_assistant_v1_base_url=https://api.au-syd.assistant.watson.cloud.ibm.com/instances/fafd6113-0b40-426c-bf2c-8d3384dc5b9c
+
 echo "INSERT INTO bluemixcredentials (id, classid, servicetype, credstypeid, url, username, password, notes) "
 echo "VALUES "
-echo "('$uuid', '$classname', 'conv', 2, 'https://gateway.watsonplatform.net/assistant/api', '$convuser', '$convpass', '$servicename')"
+echo "('$uuid', '$classname', 'conv', 2, '$my_watson_assistant_v1_base_url', '$convuser', '$convpass', '$servicename')"
 echo ";"
