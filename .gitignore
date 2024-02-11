@@ -29,3 +29,4 @@ mlforkids-numbers/__pycache__/
 **/note.md
 **/.idea
 logs/*
+**/.env

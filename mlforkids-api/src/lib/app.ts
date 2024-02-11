@@ -3,18 +3,21 @@ import * as express from 'express';
 import { Server } from 'http';
 // local dependencies
 import * as store from './db/store';
-import * as objectstore from './objectstore';
-import * as iamcache from './iam';
+// import * as objectstore from './objectstore';
+// import * as iamcache from './iam';
 import * as sitealerts from './sitealerts';
 import restapi from './restapi';
-import * as credentialscheck from './training/credentialscheck';
-import * as slack from './notifications/slack';
-import * as email from './notifications/email';
-import * as spotify from './spotify';
+// import * as credentialscheck from './training/credentialscheck';
+// import * as slack from './notifications/slack';
+// import * as email from './notifications/email';
+// import * as spotify from './spotify';
 import { confirmRequiredEnvironment } from './utils/env';
 import * as shutdown from './utils/shutdown';
 import * as env from './utils/env';
 import loggerSetup from './utils/logger';
+
+require("dotenv").config();
+console.log(process.env.FOO);
 
 const log = loggerSetup();
 let server: Server;
@@ -35,21 +38,21 @@ if (env.inMaintenanceMode()) {
 }
 
 // prepare Slack API for reporting alerts
-slack.init();
+// slack.init();
 // prepare SMTP pool for sending notification emails
-email.init();
+// email.init();
 
 // setup Spotify auth header
-spotify.init();
+// spotify.init();
 
 // connect to S3 object storage used to store images and sounds
-objectstore.init();
+// objectstore.init();
 
 // initialise the cache for tokens from Bluemix IAM
-iamcache.init();
+// iamcache.init();
 
 // initialise the cache for checking API key requirements
-credentialscheck.init();
+// credentialscheck.init();
 
 // connect to DB
 store.init()
