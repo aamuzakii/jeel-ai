@@ -67,4 +67,6 @@ COPY --from=builder /usr/src/build/dist/lib dist/lib
 # confirm prepared app
 RUN ls -l /usr/src/app
 
+EXPOSE 3000
+
 CMD ["npm", "start"]
