@@ -371,13 +371,13 @@
             "BODY": "اجمع أمثلة على ما تريد للكمبيوتر أن يتعرف عليه "
         },
         "LEARNANDTEST": {
-            "TITLE": "تعلم وamp; اختبر  ",
+            "TITLE": "تعلم و اختبر  ",
             "BODY": "استخدم الأمثلة لتدريب الكمبيوتر على التعرف"
         },
         "MAKES": {
             "TITLE": "صنع",
-            "BODY": "استخدم نموذج تعلم الآلة الذي دربته لإنشاء لعبة أو تطبيق ، في سكراتش أو في Python",
-            "BODY_SCRATCHPYTHONAPPINV": "Use the machine learning model you've trained to make a game or app, in سكراتش, Python, or App Inventor",
+            "BODY": "استخدم نموذج تعلم الآلة الذي دربته لإنشاء لعبة أو تطبيق ، في سكراتش أو في بايثون",
+            "BODY_SCRATCHPYTHONAPPINV": "Use the machine learning model you've trained to make a game or app, in سكراتش, بايثون, or App Inventor",
             "BODY_SCRATCHONLY": "Use the machine learning model you've trained to make a game or app in سكراتش"
         },
         "SCRATCH": {
@@ -385,8 +385,8 @@
             "BODY": "استخدم نموذج تعلم الآلة الذي دربته لإنشاء لعبة في سكراتش"
         },
         "PYTHON": {
-            "TITLE": "Python",
-            "BODY": "استخدم نموذج تعلم الآلة الذي قمت بتدريبه في برنامج Python"
+            "TITLE": "بايثون",
+            "BODY": "استخدم نموذج تعلم الآلة الذي قمت بتدريبه في برنامج بايثون"
         },
         "APPINVENTOR": {
             "TITLE": "App Inventor",
@@ -398,7 +398,7 @@
         },
         "EDUBLOCKS": {
             "TITLE": "EduBlocks",
-            "BODY": "Write Python using a drag and drop coding tool"
+            "BODY": "Write بايثون using a drag and drop coding tool"
         }
     },
     "TRAINING": {
@@ -930,16 +930,16 @@
     "MAKES": {
         "TITLE": "اصنع شيئًا باستخدام نموذج تعلم الآلة",
         "SCRATCH3": "استخدم الإصدار الجديد من  سكراتش",
-        "PYTHON": "اكتب رمز Python لاستخدام نموذج تعلم الآلة",
+        "PYTHON": "اكتب رمز بايثون لاستخدام نموذج تعلم الآلة",
         "APPINVENTOR": "إنشاء تطبيق  لهاتفك الجوال أو جهازك اللوحي",
         "EDUBLOCKS": "اكتب لغة بايثون باستخدام أداة الترميز بالسحب والإفلات"
     },
     "PYTHON": {
-        "TITLE": "استخدام تعلم الآلة في Python",
-        "NOTREADY": "مشروعك غير جاهز للاستخدام في Python حتى الآن.",
+        "TITLE": "استخدام تعلم الآلة في بايثون",
+        "NOTREADY": "مشروعك غير جاهز للاستخدام في بايثون حتى الآن.",
         "NOMODEL": "لم تُدرّب نموذج تعلم الآلة بعد.",
-        "NOSOUND": "لا يمكن استخدام Python مع مشاريع الأصوات.",
-        "LAUNCH": "شغّل Python في المتصفح",
+        "NOSOUND": "لا يمكن استخدام بايثون مع مشاريع الأصوات.",
+        "LAUNCH": "شغّل بايثون في المتصفح",
         "LOCAL": "انسخ الرمز لتشغيله على جهاز الكمبيوتر الخاص بك",
         "REPLIT": {
             "TITLE": "Coding in replit",
@@ -947,9 +947,9 @@
             "GO": "Go to replit.com"
         },
         "MODE": {
-            "INTRO": "أين تريد كتابة وتشغيل رمز Python الخاص بك؟",
-            "BROWSER": "يمكنك القيام بكل شيء في متصفح الويب ، مما يعني أنه لا داعي للقلق بشأن تثبيت أو إعداد Python ، أو أي من وحدات Python الخارجية التي ستحتاجها.",
-            "LOCAL": "أو يمكنك نسخ الرمز لتشغيله على جهاز الكمبيوتر الخاص بك. هذا مفيد إذا كانت هناك ملفات محلية ، أو أجهزة مثل كاميرا الويب أو مكبر الصوت ، تريد استخدامها في برنامج Python الخاص بك."
+            "INTRO": "أين تريد كتابة وتشغيل رمز بايثون الخاص بك؟",
+            "BROWSER": "يمكنك القيام بكل شيء في متصفح الويب ، مما يعني أنه لا داعي للقلق بشأن تثبيت أو إعداد بايثون ، أو أي من وحدات بايثون الخارجية التي ستحتاجها.",
+            "LOCAL": "أو يمكنك نسخ الرمز لتشغيله على جهاز الكمبيوتر الخاص بك. هذا مفيد إذا كانت هناك ملفات محلية ، أو أجهزة مثل كاميرا الويب أو مكبر الصوت ، تريد استخدامها في برنامج بايثون الخاص بك."
         },
         "APIKEY_INSTRUCTION": "تحتاج إلى إضافة مفتاح واجهة برمجة التطبيقات API الخاص بك إلى المشروع. افعل ذلك في السطر 6 من القالب.",
         "APIKEY_WARNING": "تعامل مع هذا الرمز على أنه كلمة مرور وتأكد من إبقائه سراً!",
@@ -1069,10 +1069,10 @@
         "MAKETYPES": {
             "ALL": "جميع أنواع البرامج",
             "SCRATCH": "مشاريع سكراتش",
-            "PYTHON": "مشاريع Python",
+            "PYTHON": "مشاريع بايثون",
             "APPINVENTOR": "مشاريع App Inventor",
             "SCRATCH_WORKSHEET": "صحيفة تعليمات  لإنشاء مشروع في سكراتش",
-            "PYTHON_WORKSHEET": "صحيفة تعليمات  لإنشاء مشروع في Python",
+            "PYTHON_WORKSHEET": "صحيفة تعليمات  لإنشاء مشروع في بايثون",
             "APPINVENTOR_WORKSHEET": "صحيفة تعليمات  لإنشاء مشروع في App Inventor"
         },
         "NO_WORKSHEETS": {
@@ -1121,7 +1121,7 @@
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-makemehappy-easy.pdf"
             },
             "WORKSHEET_3": {
-                "DESCRIPTION": "مشروع Python - إنشاء مشروع باستخدام لغة Python",
+                "DESCRIPTION": "مشروع بايثون - إنشاء مشروع باستخدام لغة بايثون",
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-makemehappy-python.pdf"
             }
         },
@@ -1245,7 +1245,7 @@
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-chatbots.pdf"
             },
             "WORKSHEET_2": {
-                "DESCRIPTION": "مشروع Python  - لعمل روبوت دردشة في Python ",
+                "DESCRIPTION": "مشروع بايثون  - لعمل روبوت دردشة في بايثون ",
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-chatbots-python.pdf"
             }
         },
@@ -1328,14 +1328,14 @@
         "NOUGHTSANDCROSSES": {
             "TITLE": "إكس-أو",
             "SUMMARY": "تعليم الكمبيوتر كيفية لعب لعبة",
-            "DESCRIPTION": "إنشاء لعبة إكس-أو في Python التي تتعلم كيفية التغلب عليك.",
+            "DESCRIPTION": "إنشاء لعبة إكس-أو في بايثون التي تتعلم كيفية التغلب عليك.",
             "TEACHERSNOTES_URL": "https://github.com/IBM/taxinomitis-docs/raw/master/teachers-notes/pdf/teachersnotes-noughtsandcrosses.pdf",
             "WORKSHEET_1": {
                 "DESCRIPTION": "إصدار فصل دراسي ، حيث يصنع كل طالب اللعبة بأنفسهم في سكراتش",
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-noughtsandcrosses.pdf"
             },
             "WORKSHEET_2": {
-                "DESCRIPTION": "إصدار فصل دراسي ، حيث يصنع كل طالب اللعبة بأنفسهم في Python",
+                "DESCRIPTION": "إصدار فصل دراسي ، حيث يصنع كل طالب اللعبة بأنفسهم في بايثون",
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-noughtsandcrosses-python.pdf"
             },
             "WORKSHEET_3": {
@@ -1417,7 +1417,7 @@
         "TITANIC": {
             "TITLE": "تيتانيك",
             "SUMMARY": "تعليم الكمبيوتر كيفية تنبؤ بالنتائج",
-            "DESCRIPTION": "إنشاء برنامج Python يمكنه التنبؤ بمن نجا من غرق تايتانيك.",
+            "DESCRIPTION": "إنشاء برنامج بايثون يمكنه التنبؤ بمن نجا من غرق تايتانيك.",
             "TEACHERSNOTES_URL": "https://github.com/IBM/taxinomitis-docs/raw/master/teachers-notes/pdf/teachersnotes-titanic.pdf",
             "WORKSHEET_1": {
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-titanic-python.pdf"
@@ -1435,7 +1435,7 @@
         "PHISHING": {
             "TITLE": "التصيد الالكتروني",
             "SUMMARY": "تعليم الكمبيوتر كيفية التعرف على روابط الويب الخاصة بالخداع و التصيد",
-            "DESCRIPTION": "أنشئ برنامج Python يمكنه توقع ما إذا كان عنوان URL شرعيًا.",
+            "DESCRIPTION": "أنشئ برنامج بايثون يمكنه توقع ما إذا كان عنوان URL شرعيًا.",
             "TEACHERSNOTES_URL": "https://github.com/IBM/taxinomitis-docs/raw/master/teachers-notes/pdf/teachersnotes-phishing.pdf",
             "WORKSHEET_1": {
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-phishing.pdf"
@@ -1995,7 +1995,7 @@
             "BUTTON": "افتح نموذج تنسورفلو",
             "TF_1": "<a href='https://www.tensorflow.org/'>تنسورفلو</a> هو مجموعة أدوات لتدريب وتشغيل نماذج التعلم الآلي.",
             "TF_2": "إذا كنت تعرف كيفية إنشاء نموذج خاص بك باستخدام TensorFlow، انقر فوق الزر أعلاه لاستخدامه في سكراتش.",
-            "TF_3": "يمكنك <a href='https://www.tensorflow.org/overview/'>إنشاء نموذجك الخاص</a> باستخدام لغات البرمجة مثل Python.",
+            "TF_3": "يمكنك <a href='https://www.tensorflow.org/overview/'>إنشاء نموذجك الخاص</a> باستخدام لغات البرمجة مثل بايثون.",
             "TF_4": "أو يمكنك استخدام أدوات مثل <a href='https://teachablemachine.withgoogle.com/'>Teachable Machine</a> لتدريب نموذج تنسورفلو بسهولة، ثم صنع شيء به في سكراتش هنا.",
             "TF_5": "(يتم دعم مصنفات الصور فقط حاليًا، ولكن الدعم لمزيد من أنواع نماذج التعلم الآلي قادم قريبًا!)"
         }        
