@@ -5,20 +5,19 @@
 FROM node:20 AS builder
 
 # don't run as root
-USER node
 
 # run the app in a folder owned by the node user
 WORKDIR /usr/src/build
 
 # install build dependencies
-COPY --chown=node:node *.json ./
+COPY *.json ./
 RUN npm install
 
 # get the build source
-COPY --chown=node:node *.js ./
-COPY --chown=node:node custom_typings custom_typings
-COPY --chown=node:node src src
-COPY --chown=node:node public public
+COPY *.js ./
+COPY custom_typings custom_typings
+COPY src src
+COPY public public
 
 # confirm the source
 RUN ls -l /usr/src/build
@@ -41,27 +40,29 @@ RUN ls -l /usr/src/build
 FROM node:20
 
 # don't run as root
-USER node
 
 # run the app in a folder owned by the node user
 WORKDIR /usr/src/app
 
 # install runtime dependencies
-COPY --chown=node:node package*.json ./
+COPY package*.json ./
+
+RUN npm install
 RUN npm clean-install --omit=dev
+
 
 # setup supporting files
 RUN mkdir logs
-COPY --chown=node:node resources resources
+COPY resources resources
 
 # copy across built front-end code
 RUN mkdir web
-COPY --from=builder --chown=node:node /usr/src/build/web/static web/static
-COPY --from=builder --chown=node:node /usr/src/build/web/dynamic web/dynamic
+COPY --from=builder /usr/src/build/web/static web/static
+COPY --from=builder /usr/src/build/web/dynamic web/dynamic
 
 # copy across built back-end code
 RUN mkdir dist
-COPY --from=builder --chown=node:node /usr/src/build/dist/lib dist/lib
+COPY --from=builder /usr/src/build/dist/lib dist/lib
 
 # confirm prepared app
 RUN ls -l /usr/src/app
