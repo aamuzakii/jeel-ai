@@ -54,7 +54,7 @@
                     <span class="mlprojecttype" ng-if="project.type === 'sounds'" translate="WORKSHEETS.TYPES.SOUNDS"></span>
                     <span ng-if="project.labelsSummary">
                         {{ 'PROJECTS.AS' | translate }}
-                        <span class="mlprojectlabels">{{ project.labelsSummary }}</span>
+                        <div class="mlprojectlabels">{{ project.labelsSummary }}</div>
                     </span>
                 </div>
                 <div class="mlprojecticon mlprojectcrowd" ng-if="project.isCrowdSourced"      ng-click="vm.displayCrowdSourcedInfo($event)"> </div>

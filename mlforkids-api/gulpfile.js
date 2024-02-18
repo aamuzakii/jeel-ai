@@ -382,3 +382,21 @@ gulp.task('buildprod',
             'scratchblocks',
             'stories'),
         'compile'));
+
+gulp.task('fe',
+    gulp.series(
+        // 'clean',
+        'uidependencies',
+        gulp.parallel(
+            // 'robotstxt',
+            // 'css',
+            'minifyprodjs',
+            'images',
+            'html',
+            'angularcomponents',
+            'languages',
+            // 'scratchblocks',
+            // 'stories'
+            ),
+        // 'compile'
+        ));

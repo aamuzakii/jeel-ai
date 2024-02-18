@@ -19,6 +19,8 @@
                     return 'صور';
                 case 'text':
                     return 'النص';
+                case 'sounds':
+                    return 'اصوات';
                 default:
                     return type;
             }
