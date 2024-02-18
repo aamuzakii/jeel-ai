@@ -16,11 +16,11 @@
         $scope.getProjectTypeTranslation = function(type) {
             switch (type) {
                 case 'imgtfjs':
-                    return 'صور';
+                    return 'الصور';
                 case 'text':
                     return 'النص';
                 case 'sounds':
-                    return 'اصوات';
+                    return 'الاصوات';
                 default:
                     return type;
             }
