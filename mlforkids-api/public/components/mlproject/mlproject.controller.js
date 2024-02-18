@@ -13,6 +13,17 @@
         var vm = this;
         vm.authService = authService;
 
+        $scope.getProjectTypeTranslation = function(type) {
+            switch (type) {
+                case 'imgtfjs':
+                    return 'صور';
+                case 'text':
+                    return 'النص';
+                default:
+                    return type;
+            }
+        };        
+
         $scope.projectId = $stateParams.projectId;
         $scope.userId = $stateParams.userId;
 
