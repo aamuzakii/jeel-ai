@@ -45,7 +45,7 @@ export const CSP_DIRECTIVES = {
         'https://scripts.withcabin.com/hello.js',
         // useful when running locally
         'https://machinelearningforkids.co.uk',
-        'https://scratch.jeelcode.com',
+        'https://scratch.machinelearningforkids.co.uk',
     ],
     frameSrc: ["'self'",
         // used in the News tab
@@ -98,7 +98,7 @@ if (process.env.AUTH0_CUSTOM_DOMAIN) {
 
 const ALLOWED_CORS_ORIGINS = [
     // requests from Scratch
-    'https://scratch.jeelcode.com',
+    'https://scratch.machinelearningforkids.co.uk',
 
     'http://ml-for-kids-local.net:3000',
     'http://ml-for-kids-local.net:9000',
@@ -119,7 +119,7 @@ function removeFrameBlockingHeaders(req: express.Request, res: express.Response,
 
 
 function redirectToNewScratchSubdomain(req: express.Request, res: express.Response): void {
-    const newUrl = 'https://scratch.jeelcode.com' +
+    const newUrl = 'https://scratch.machinelearningforkids.co.uk' +
         (req.query.url ? '?url=' + req.query.url : '');
     res.redirect(httpstatus.MOVED_PERMANENTLY, newUrl);
 }
