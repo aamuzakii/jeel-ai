@@ -1,4 +1,6 @@
 // external dependencies
+require("dotenv").config();
+
 import * as express from 'express';
 import { Server } from 'http';
 // local dependencies
@@ -16,8 +18,6 @@ import * as shutdown from './utils/shutdown';
 import * as env from './utils/env';
 import loggerSetup from './utils/logger';
 
-require("dotenv").config();
-console.log(process.env.FOO);
 
 const log = loggerSetup();
 let server: Server;
