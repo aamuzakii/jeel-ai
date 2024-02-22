@@ -2003,7 +2003,7 @@
     "BOOK": {
         "TITLE": "كتاب",
         "NOTES_1": "<strong>تعلم الآلة للأطفال: مقدمة مبنية على المشاريع للذكاء الاصطناعي</strong> هو كتاب جديد يرافق الموقع.",
-        "NOTES_2": "الكتاب هو مقدمة موجهة وعملية لكيفية تأثير الذكاء الاصطناعي على حياتنا. يتضمن تعليمات خطوة بخطوة لإنشاء مجموعة متنوعة من المشاريع التي تعتمد على تعلم الآلة باستخدام برنامج Scratch، ويشرح كيف يرتبط كل منها بتطبيقات الذكاء الاصطناعي في العالم الحقيقي.    ",
+        "NOTES_2": "الكتاب هو مقدمة موجهة وعملية لكيفية تأثير الذكاء الاصطناعي على حياتنا. يتضمن تعليمات خطوة بخطوة لإنشاء مجموعة متنوعة من المشاريع التي تعتمد على تعلم الآلة باستخدام برنامج سكراتش، ويشرح كيف يرتبط كل منها بتطبيقات الذكاء الاصطناعي في العالم الحقيقي.    ",
         "NOTES_3": "تتناول العديد من المشاريع جوانبًا أعمق من كيفية تطبيق تعلم الآلة، بما في ذلك إعادة إنشاء بعض أكثر الأخطاء شيوعًا في مجال الذكاء الاصطناعي، وفهم الطرق المختلفة التي يمكن قياس ووصف أداء نظم تعلم الآلة.",
         "NOTES_4": "أخيرًا، ينتهي الكتاب بإعادة إنشاء أمثلة على أنظمة تعلم الآلة المتحيزة، ويناقش قضايا أخلاقيات الذكاء الاصطناعي التي تثيرها.",
         "UPDATES": {
@@ -2156,7 +2156,7 @@
             "CALLOUT": "First-hand experience with machine learning technologies gives students a crucial insight into the behaviour and motivations of tech companies."
         },
         "CONFIDENCESCORES": {
-            "TITLE": "How to use confidence scores",
+            "TITLE": "كيفية استخدام نقاط الثقة",
             "TEXT1": "Machine learning models don't just give an answer, they also typically return a score showing how confident the system is that it has correctly recognized the input.",
             "TEXT2": "Knowing how to use this confidence score is an important part of using machine learning.",
             "TEXT3": "An example of how a student used this in their project is shown in the video. Their سكراتش script says that if the machine learning model has less than 50% confidence that it has correctly recognized a command, it replies \"I'm sorry I don't understand\" (instead of taking an action).",
@@ -2173,7 +2173,7 @@
             "CALLOUT": "Students learn how to effectively use confidence scores returned by machine learning models by playing, experimenting, and seeing the difference that different confidence thresholds make."
         },
         "BLACKBOX": {
-            "TITLE": "There are ways to deal with the 'black box challenge'",
+            "TITLE": "هناك طرق للتعامل مع تحدي صندوق الأسود",
             "TEXT1": "This started out as a fun simple project. Students trained a machine learning model to recognise a few different toy figures.",
             "TEXT2": "For example, the machine learning model in the image shown here was trained to recognise The Doctor, Gandalf and a Ghostbuster.",
             "TEXT3": "The students were curious why their machine learning model was recognising each toy figure. What was it about that picture of The Doctor that the computer had learned to recognise as The Doctor?",
@@ -2198,7 +2198,7 @@
             "CALLOUT": "The flexibility of blocks in سكراتش provide students with opportunities to explore the behaviour of machine learning models in creative ways."
         },
         "LEARNINGWRONGTHING": {
-            "TITLE": "Machine learning doesn't always learn what we intend it to",
+            "TITLE": "الذكاء الاصطناعي لا يتعلم دائماً ما نقصده",
             "TEXT1": "Some of the best lessons I've run have been where a machine learning model did the \"wrong\" thing. Students learn a lot from seeing an example of machine learning not doing what we want.",
             "TEXT2": "Perhaps my favourite example of when something went wrong was a lesson that I did on Rock, Paper, Scissors.",
             "TEXT3": "Students make a سكراتش project to play Rock, Paper, Scissors. They use their webcam to collect example photos of their hands making the shapes of rock (fist), paper (flat hand), and scissors (two fingers) - and use those photos to train a machine learning model to recognise their hand shapes.",
@@ -2227,7 +2227,7 @@
             "CALLOUT": "Machine learning models learn from patterns in the training data that we give them, whether or not those are patterns we'd intended to give."
         },
         "CONFUSED": {
-            "TITLE": "Inputs that aren't represented in training may not be recognised correctly",
+            "TITLE": "قد لا تتم التعرف بشكل صحيح على المدخلات التي لم يتم تمثيلها في التدريب.",
             "TEXT1": "Some of the best lessons I've run have been where a machine learning model did the \"wrong\" thing. Students learn a lot from seeing an example of machine learning not doing what we expect.",
             "TEXT2": "In one lesson, I'd asked the class to find photos of cows and sheep, and use this to train a machine learning model. My plan was that we'd use this to make a virtual artificial intelligence sheepdog: something that could recognise photos of cows or sheep on a virtual farm, and sort them, moving each animal photo them to the correct area of the farm.",
             "TEXT3": "To save time, I'd prepared the test photos for them - I collected photos of cows and sheep that they could use in a سكراتش sheepdog project.",
@@ -2242,7 +2242,7 @@
             "CALLOUT": "When students train a machine learning model to do one thing, they can see how it might not be very good at doing a different thing."
         },
         "BIAS": {
-            "TITLE": "Bias and the responsibility of the machine learning developer",
+            "TITLE": "تحيز و مسؤولية مطوّر تعلم الآلة",
             "TEXT1": "Recommendation engines are a good topic for student projects. They're a common use of machine learning that most students will have interacted with before, such as streaming services recommending what song or video they might next want to listen to or watch. Making a simplified recommendation system for themselves is a good way for students to gain insight into how these systems are created.",
             "TEXT2": "One example of the sort of projects I've done with students for this is to help them make an app that recommends places that someone might want to visit while on vacation. They do this by training a machine learning model using examples of how people might describe their likes and interests.",
             "TEXT3": "Their app can then use this model to start making recommendations - they tell it what sort of thing that they like, and it uses that to suggest a place that they might like to visit.",
@@ -2266,7 +2266,7 @@
             "CALLOUT": "By experimenting with their own machine learning model, students can see how easy it is to introduce bias into AI applications - which enables them to engage in debates on ethics in AI."
         },
         "SOLUTIONS": {
-            "TITLE": "Combining machine learning models can make a powerful app",
+            "TITLE": "يمكن أن يحقق دمج بعض نماذج التعلم الآلي تطبيقًا قويًا.",
             "TEXT1": "Once students have made a few simple projects, I like to help them to make a project that includes multiple machine learning models. ",
             "TEXT2": "For example, 'Laser Eyes' is a project where students need to shoot bottles using laser beams from their eyes, by moving their head to the right place and then shouting 'Laser Eyes!'.",
             "TEXT3": "It's a fun and silly game, made using a combination of two machine learning models: a face detection model to recognise where their eyes are in the webcam, and a sound machine learning model that they have to train to recognise when they shout out 'Laser Eyes'.",
@@ -2277,7 +2277,7 @@
             "CALLOUT": "Helping students to create an application that combines multiple machine learning models gives them a much more realistic insight into the way that the technologies are used in the real-world."
         },
         "MISUSING": {
-            "TITLE": "What happens when machine learning models are used for things they weren't trained to do",
+            "TITLE": "ماذا يحدث عندما يتم استخدام نماذج تعلم الآلة لأشياء لم يتم تدريبها عليها",
             "TEXT1": "Once students have an understanding of what machine learning technologies can do and how they behave, I like to get them thinking about how they should be used.",
             "TEXT2": "For this project, I had two small groups of students.",
             "TEXT3": "I asked one group of students to train a computer to recognise <strong>photos of fruit</strong>. They chose a few types of fruit (plum, banana, pear) and started collecting training images of each to use to train a machine learning model.",
@@ -2296,7 +2296,7 @@
             "CALLOUT": "If machine learning models are used to do something that is very different to what they were trained to do, the results might be unexpected or invalid."
         },
         "INVISIBLEAI": {
-            "TITLE": "Invisible artificial intelligence systems are everywhere",
+            "TITLE": "أنظمة الذكاء الاصطناعي غير المرئية موجودة في كل مكان",
             "TEXT1": "In this project, students trained a machine learning model to recognise the first bit of the postcode for a few local cities. (<em>For non-UK readers, this is equivalent to something like a zip-code or perhaps the two-letter abbreviation for a name of a state or county</em>).",
             "TEXT2": "They did this by drawing examples of how those postal codes are written, directly onto an on-screen canvas.",
             "TEXT3": "They used this to make a game in سكراتش based on the children's television show <em>Postman Pat</em>, where they would write a postcode onto an on-screen envelope, and their machine learning model would recognise what they had written and move the envelope to the correct <em>Postman Pat</em> van.",

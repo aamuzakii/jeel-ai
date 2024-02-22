@@ -202,3 +202,7 @@ table.loginInfoGrid td {
     max-width: 400px;
     margin-bottom: 1em;
 }
+
+.m2vw {
+    margin: 0 2vw;
+}
