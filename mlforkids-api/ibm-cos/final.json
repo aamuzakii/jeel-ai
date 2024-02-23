@@ -1,0 +1,7 @@
+{
+  "endpoint": "https://s3.jp-tok.cloud-object-storage.appdomain.cloud",
+  "apiKeyId": "yxViPOXewJood1CeBuXYjGgL8la****9wY16BcCIY",
+  "region": "jp-tok",
+  "ibmAuthEndpoint": "https://iam.ng.bluemix.net/oidc/token",
+  "serviceInstanceId": "dd7f4099-751a-447e-b99f-********"
+}
