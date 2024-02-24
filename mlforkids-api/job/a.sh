@@ -1,0 +1,18 @@
+curl 'https://machinelearning.temanumroh.com/api/classes/session-users/students/b9c94423-e0e2-4860-b94f-4d24843b1b1f/localprojects/ace35670-d2a9-11ee-b5a6-abd6792a994d/models' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImI5Yzk0NDIzLWUwZTItNDg2MC1iOTRmLTRkMjQ4NDNiMWIxZiIsInRva2VuIjoiZWU0MDkyZWItZjJhZi00ZGE5LWFmZGQtMThiNTNiYjE2YWQ2Iiwic2Vzc2lvbkV4cGlyeSI6IjIwMjQtMDItMjRUMDQ6MDk6NTguMDAwWiIsImlhdCI6MTcwODczMzM5OX0.Rv38JokxrOt5QudtAcMeyf_IquNFFPT4BeeQlnheh_c' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json;charset=UTF-8' \
+  -H 'Origin: https://machinelearning.temanumroh.com' \
+  -H 'Pragma: no-cache' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Not A(Brand";v="99", "Google Chrome";v="121", "Chromium";v="121"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  --data-raw '{"training":{"name":"asas","language":"en","intents":[{"intent":"asas","examples":[{"text":"sdsd"},{"text":"1"},{"text":"2"},{"text":"3"},{"text":"444"}]},{"intent":"sd","examples":[{"text":"3434"},{"text":"dsd"},{"text":"wewe"},{"text":"dfdf"},{"text":"dwd"}]}],"dialog_nodes":[],"counterexamples":[],"entities":[],"metadata":{"createdby":"machinelearningforkids"}}}' \
+  --compressed

@@ -1,0 +1,3 @@
+tab permission gausah di utak atik samsek
+
+public access biarin no, kayaknya kalau jadi yes, nanti kena error anonymous auth
