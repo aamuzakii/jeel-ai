@@ -381,7 +381,7 @@ gulp.task('buildprod',
             'prodlanguages',
             'scratchblocks',
             'stories'),
-        // 'compile'
+        'compile'
         ));
 
 gulp.task('fe',
