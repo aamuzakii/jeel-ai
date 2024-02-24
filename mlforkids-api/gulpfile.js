@@ -381,7 +381,8 @@ gulp.task('buildprod',
             'prodlanguages',
             'scratchblocks',
             'stories'),
-        'compile'));
+        // 'compile'
+        ));
 
 gulp.task('fe',
     gulp.series(
@@ -400,3 +401,22 @@ gulp.task('fe',
             ),
         // 'compile'
         ));
+
+
+gulp.task('component',
+    gulp.series(
+        // 'clean',
+        // 'uidependencies',
+        gulp.parallel(
+            'robotstxt',
+            'css',
+            'minifyprodjs',
+            'images',
+            'html',
+            'angularcomponents',
+            'languages',
+            // 'stories'
+            ),
+        // 'compile'
+    ));
+    

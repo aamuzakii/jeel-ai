@@ -317,6 +317,7 @@
                 });
 
                 lock.on('authorization_error', function (err) {
+                    // ini
                     loggerService.warn('[ml4kauth] Authorization error', err);
 
                     if (err && err.errorDescription) {
