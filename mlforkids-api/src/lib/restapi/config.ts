@@ -10,6 +10,7 @@ import * as constants from '../utils/constants';
 export const CSP_DIRECTIVES = {
     defaultSrc: ["'self'",
         // used for auth
+        'https://dev-dabiad2n71gvvkx3.us.auth0.com',
         'http://cdn.auth0.com',
         'https://cdn.auth0.com',
         'https://cdn.eu.auth0.com',
@@ -21,8 +22,13 @@ export const CSP_DIRECTIVES = {
         'https://ton.twimg.com',
         'https://platform.twitter.com',
     ],
+    scriptSrcAttr: [ 
+        "'unsafe-eval'",
+        "'unsafe-inline'",
+        "'unsafe-hashes'"],
     scriptSrc: ["'self'",
-        // TODO : https://github.com/IBM/taxinomitis/issues/346 should remove this
+    // TODO : https://github.com/IBM/taxinomitis/issues/346 should remove this
+        'https://dev-dabiad2n71gvvkx3.us.auth0.com',
         "'unsafe-eval'",
         "'unsafe-inline'",
         // used for auth

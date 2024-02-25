@@ -188,7 +188,7 @@ export function createTeacher(tenant: string, username: string, email: string): 
         username,
         password : randomstring.generate({ length : 12, readable : true }),
         verify_email : true,
-        email_verified : true, // temporary
+        email_verified : false,
         connection : process.env[env.AUTH0_CONNECTION] as string,
         app_metadata : {
             role : 'supervisor',
