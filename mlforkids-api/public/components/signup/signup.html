@@ -1,5 +1,5 @@
 <div class="jumbotron">
-    <h2 class="text-center">Create an unmanaged class account</h2>
+    <h2 class="text-center">إنشاء حساب فئة غير مُدارة</h2>
 </div>
 <div ng-if="isAuthenticated" class="alert alert-info pageheadermsg">
     <strong translate="APP.INFO"></strong> Already logged in
@@ -94,8 +94,9 @@
                 <md-checkbox
                     ng-model="terms"
                     ng-disabled="vm.complete || vm.creating"
+                    style="float: right; margin-right: 10px; bottom: 27px"
                     ng-focus="vm.focused = 'terms'">
-                    By checking this box, you accept responsibility for any fees or charges incurred on <a href="https://cloud.ibm.com/">IBM Cloud</a>.
+                    <a href="https://cloud.ibm.com/">IBM Cloud</a> من خلال تحديد هذا المربع، تقر بتحملك المسؤولية عن أي رسوم أو تكاليف تنشأ على
                 </md-checkbox>
             </md-input-container>
             <div class="well newprojecthelp" ng-if="vm.focused === 'terms'">
@@ -145,10 +146,10 @@
                 class="md-raised md-primary"
                 ng-disabled="vm.complete || vm.creating || newClass.$invalid || terms !== true"
                 ng-click="vm.confirm({ username : username, email : email, intendeduse : intendeduse })">
-                Create class account
+                إنشاء حساب فئة
             </md-button>
             <md-button ui-sref="login" ng-disabled="vm.creating || vm.complete">
-                Cancel
+                إلغاء
             </md-button>
         </div>
 
