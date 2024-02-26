@@ -229,7 +229,7 @@
 
             var expiresAt = JSON.stringify((authResult.expiresIn * 1000) + new Date().getTime());
 
-            var scopes = authResult.scope || REQUESTED_SCOPES || '';
+            var scopes = REQUESTED_SCOPES || '';
 
             storageService.setItem('access_token', authResult.accessToken);
             storageService.setItem('id_token', authResult.idToken);
@@ -283,6 +283,7 @@
                     if (authResult && authResult.accessToken && authResult.idToken) {
                         loggerService.debug('[ml4kauth] Received expected auth tokens');
 
+                        console.log("authResult", authResult);
                         storeToken(authResult);
 
                         loggerService.debug('[ml4kauth] Retrieving user info');
