@@ -155,7 +155,7 @@ export function createStudent(tenant: string, username: string, studentgroup?: s
     return createUser({
         email : username + '@do-not-require-emailaddresses-for-students.com',
         username,
-        password : passphrases.generate(),
+        password : randomstring.generate({ length : 12, readable : true }),
         verify_email : false,
         email_verified : true,
         connection : process.env[env.AUTH0_CONNECTION] as string,
