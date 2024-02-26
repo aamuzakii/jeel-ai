@@ -145,7 +145,7 @@
             if (lock) {
                 lock.show({
                     languageDictionary : {
-                        title: 'Log in to ML for Kids'
+                        title: 'تسجيل الدخول إلى تعلم الآلة للأطفال'
                     }
                 });
             }
